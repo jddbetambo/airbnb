@@ -10,14 +10,12 @@ variable "instance_type" {
   description = "Instance type used"
 }
 
-variable "Access_Key_ID" {
-  type        = string
-  description = "Your User Access Key ID for security and running ec2 commands"
-  default     = "AKIAW3MEBM6WZ2NNFJWV"
-}
+# variable "Access_Key_ID" {
+#   type        = string
+#   description = "Your User Access Key ID for security and running ec2 commands"
+# }
 
-variable "Access_Key_Secret" {
-  type        = string
-  description = "Your User Secret Access Key for security and running ec2 commands"
-  default     = "hfQtpDdQfuwqMIdMmPJfJNnQidFu3Fa/fDvjPIBl"
-}
+# variable "Access_Key_Secret" {
+#   type        = string
+#   description = "Your User Secret Access Key for security and running ec2 commands"
+# }
