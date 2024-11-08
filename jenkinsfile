@@ -98,7 +98,7 @@ pipeline {
         stage('Stage 8: Closing') {
             steps {
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
-                echo "This is my jenkins file"
+                echo "This is my jenkins file to use"
                 echo 'Goodbye !'
             }
         }
